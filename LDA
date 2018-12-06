@@ -1,4 +1,4 @@
-imdb=read.csv("imdb.csv",stringsAsFactors = F)
+imdb=read.csv("imdbc.csv",stringsAsFactors = F)
 reviews=imdb$doc
 library(tm)
 stop_words=stopwords("SMART")
